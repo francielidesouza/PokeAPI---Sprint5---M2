@@ -1,0 +1,129 @@
+.header__img--logo{
+    display: block;
+    padding-top: 50px;
+}
+
+.list__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 70px;
+    height: 100vh;
+    width: 95%;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+.header__container{
+    min-height: 152px;
+    width: 90%;
+    gap: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.header__form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.form__input{
+    padding: 15px 24px; 
+    color: var(--grey-color-4);
+    font-size: var(--text-1);
+    font-weight: 500;
+    line-height: 20.8px;
+    background-color: var(--bg-grey-2);
+    border: var(--bg-grey-2);
+    width: 70%;
+}
+
+.form__input::placeholder{
+    color: var(--grey-color-4);
+    font-size: var(--text-1);
+    font-weight: 500;
+    line-height: 20.8px;
+}
+
+.form__btn{
+    background-color: var(--bg-blue-1);
+    border-color: var(--bg-blue-1);
+    width: 72px;
+    height: 52px;
+}
+
+
+.header__title{
+    color: var(--grey-color-1);
+    font-size: var(--title-1);
+    font-weight: 500;
+    line-height: 31.2px;
+}
+
+
+.card__container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90%;
+    height: 15%;
+    background-color: var(--bg-grey-2);
+    border-radius: var(--radius);
+}
+
+.card__title{
+padding-left: 50px;
+}
+.card__title, .card__title--loadding{
+    color: var(--grey-color-2);
+    font-size: var(--title-2);
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.card__title--loadding{
+    color: var(--grey-color-3);
+    margin-top: 150px;
+}
+
+.hidden{
+    display: none;
+    align-self: center;
+}
+
+@media (min-width: 768px){
+    .header__container{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-top: 50px;
+        width: 70%;
+    }
+
+    .card__container--loadding{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .card__container{
+        width: 70%;
+    }
+    .header__img--logo{
+        padding-top: 0;
+    }
+
+    .header__form{
+        width: 50%;
+    }
+
+    .form__input{
+        height: 7%;
+    }
+}

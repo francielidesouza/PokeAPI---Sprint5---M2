@@ -1,0 +1,31 @@
+:root{
+    --bg-grey-1: #212529;
+    --bg-grey-2: #343A40;
+    --bg-blue-1: #4C6EF5;
+
+    --grey-color-1: #DEE2E6;
+    --grey-color-2: #CED4DA;
+    --grey-color-3: #ADB5BD;
+    --grey-color-4:#7C8B99;
+
+    --title-1:  1.5rem; /*24px*/
+    --title-2: 1.25rem; /*20px*/
+
+    --text-1: 1rem; /*16px*/
+
+    --radius: 8px;
+}
+
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: var(--bg-grey-1);
+}
+
+input{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+
+input, button{
+    border-radius: var(--radius);
+}

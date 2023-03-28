@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- FONTES -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="./src/styles/reset.css">
+  <link rel="stylesheet" href="./src/styles/globalStyles.css">
+  <link rel="stylesheet" href="./src/styles/index.css">
+  <!-- SCRIPTS -->
+  <script src="./src/scripts/requests.js" defer></script> <!--request -->
+ <script src="./src/scripts/index.js" defer></script>   <!--render -->
+ 
+  <title>Consumindo PokeAPI</title>
+</head>
+
+<body>
+  
+  <header class="header__container">
+  
+      <img src="./src/assets/pokeapi.png" alt="Logo PokéApi" class="header__img--logo">
+
+  </header>    
+
+    <main>
+
+      <div class="card__container--loadding">
+        <h1 class="header__title">Lista de Pokémon</h1>
+        <p class="card__title--loadding">Carregando...</p>
+      </div>
+      
+    <ul class="list__container">
+    </ul>
+  </main>
+</body>
+
+</html>
